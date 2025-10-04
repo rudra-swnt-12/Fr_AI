@@ -1,4 +1,4 @@
-# 🤖 Proactive Multimodal AI Assistant
+# 🤖 Frequent Reasoning Artificial Intelligence
 
 A privacy-first, locally-running AI assistant that observes your environment through your webcam and proactively provides helpful suggestions without requiring explicit commands.
 
@@ -32,7 +32,7 @@ A privacy-first, locally-running AI assistant that observes your environment thr
 curl -fsSL https://ollama.com/install.sh | sh
 
 # Pull a model
-ollama pull llama3.1
+ollama pull phi3:latest
 
 # Start Ollama server
 ollama serve
@@ -42,8 +42,8 @@ ollama serve
 
 ```bash
 # Clone or create project directory
-mkdir proactive-ai-assistant
-cd proactive-ai-assistant
+mkdir fr-ai
+cd fr-ai
 
 # Create virtual environment
 python -m venv venv

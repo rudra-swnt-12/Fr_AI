@@ -1,9 +1,9 @@
-# Proactive Multimodal AI Assistant - Project Structure
+# Frequent Reasoning Artificial Intelligence - Project Structure
 
 ## 📁 Complete Directory Structure
 
 ```
-proactive-ai-assistant/
+fr-ai/
 │
 ├── main.py                          # Main application entry point
 ├── requirements.txt                 # Python dependencies
@@ -64,7 +64,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 **Pull LLM model**:
 ```bash
-ollama pull llama3.1
+ollama pull phi3:latest
 # or
 ollama pull phi3
 ```
@@ -78,8 +78,8 @@ ollama serve
 
 **Create project directory**:
 ```bash
-mkdir proactive-ai-assistant
-cd proactive-ai-assistant
+mkdir fr-ai
+cd fr-ai
 ```
 
 **Create virtual environment**:

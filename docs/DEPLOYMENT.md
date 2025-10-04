@@ -45,7 +45,7 @@ ollama --version
 ollama serve
 
 # In a new terminal, pull a model
-ollama pull llama3.1
+ollama pull phi3:latest
 
 # Alternative smaller model
 ollama pull phi3:latest
@@ -64,8 +64,8 @@ ollama list
 
 ```bash
 # Create project directory
-mkdir proactive-ai-assistant
-cd proactive-ai-assistant
+mkdir fr-ai
+cd fr-ai
 
 # Create directory structure
 mkdir -p src/vision src/reasoning src/output src/config src/utils
@@ -96,7 +96,7 @@ python setup.py
 
 ### Core Files Needed
 
-1. **`main.py`** - Main application (see artifact: "Proactive AI Assistant - Main Application")
+1. **`main.py`** - Main application (see artifact: "Frequent Reasoning AI - Main Application")
 2. **`requirements.txt`** - Dependencies (see artifact: "Requirements File")
 3. **`.gitignore`** - Git ignore rules (see artifact: ".gitignore File")
 4. **`README.md`** - Documentation (see artifact: "README.md")
