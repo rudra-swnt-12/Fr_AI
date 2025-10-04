@@ -1,0 +1,23 @@
+# Computer Vision
+opencv-python==4.8.1.78
+numpy<2.0
+Pillow==10.1.0
+
+# Vision Models
+transformers==4.35.2
+torch >= 2.2.0
+torchvision >= 0.17.0
+
+# LLM Integration
+requests==2.31.0
+
+# Text-to-Speech (optional)
+pyttsx3==2.90
+
+# Utilities
+python-dotenv==1.0.0
+
+# Development
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
